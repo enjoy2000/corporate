@@ -1,30 +1,5 @@
 <?php
-session_start();
-
-if (isset($_GET["locale"])) {
-    $locale = $_GET["locale"];
-}
-else if (isset($_SESSION["locale"])) {
-    $locale  = $_SESSION["locale"];
-}
-else {
-    $locale = "ja_JP";
-}
-
-// I18N support information here
-putenv("LANG=" . $locale);
-setlocale(LC_ALL, $locale);
-
-// Set the text domain as "messages"
-$domain = "messages";
-bindtextdomain($domain, "./Locale");
-bind_textdomain_codeset($domain, 'UTF-8');
-
-textdomain($domain);
-
-echo _("test");
-echo '<br />';
-echo _("Let’s make the web multilingual.");
+include('translator.php');
 ?>
 
 <!DOCTYPE html>
