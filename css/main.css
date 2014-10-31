@@ -5,9 +5,16 @@
 
 body{
     font-family: Arial, "Helvetica Neue", Verdana, Arial, sans-serif;
+    font-size: 18px;
     background: url('../img/main-bg.png') repeat transparent;
     padding: 0;
     color: #6d6e71;
+}
+.os-animation{
+    opacity: 0;
+}
+.os-animation.animated{
+    opacity: 1;
 }
 header{
     background: url('../img/header-bg.png') no-repeat top center transparent;
@@ -16,7 +23,7 @@ header{
     text-align: center;
 }
 header .logo {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 header .slogan{
     color: white;
@@ -26,22 +33,65 @@ header .slogan{
     padding-bottom: 40px;
     background: url('../img/down-arrow.png') bottom center no-repeat transparent;
 }
-
+header#header .container{
+    position: relative;
+}
+header#header #social-language{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+header#header #social-language > div{
+    display: inline-block;
+    margin-right: 10px;
+}
+header#header .dropdown button{
+    background: transparent;
+    color: #0065cc;
+    border: solid 1px #0065cc;
+    border-radius: 4px;
+    text-shadow: none;
+    font-weight: bold;
+}
+header#header .social a{
+    background-color: #0065cc;
+    color: #0a2a49;
+    width: 28px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: color 200ms ease-out;
+    -webkit-transition: all 200ms ease-out;
+}
+header#header .social a:hover{
+    background-color: #fff;
+}
+header#header .social a.linkedin:hover{
+    color: #007bb6;
+}
+header#header .social a.facebook:hover{
+    color: #3b5998;
+}
+header#header .social a.twitter:hover{
+    color: #00aced;
+}
+header#header .social a.google:hover{
+    color: #dd4b39;
+}
 /*
 SECTION OUR SERVICES
 */
 section#our-services{
     padding: 110px 0;
 }
-section#our-services .heading{
+.heading{
     text-align: center;
 }
-section#our-services .heading h2{
+.heading h2{
     color: #0065cc;
     text-transform: uppercase;
     font-size: 35px;
 }
-section#our-services .heading p{
+.heading p{
     font-size: 24px;
     text-transform: uppercase;
 }
@@ -86,7 +136,159 @@ section#history .heading p{
     font-size: 24px;
     text-transform: uppercase;
 }
+section#history .timeline{
+    position: relative;
+    min-height: 1354px;
+    background: url('../img/timeline.png') center top no-repeat;
+}
+section#history .timeline h3{
+    color: #000;
+    font-weight: bold;
+}
+section#history .timeline .left,
+section#history .timeline .right{
+    position: absolute;
+    color: #6d6e71;
+    width: 320px;
+}
+section#history .timeline .left{
+    right: 60%;
+    text-align: right;
+}
+section#history .timeline .right{
+    left: 60%;
+}
+section#history .timeline .event2004{
+    top: 5px;
+}
+section#history .timeline .event2007{
+    top: 180px;
+}
 
+section#history .timeline .event2008{
+    top: 350px;
+}
 
+section#history .timeline .event2010{
+    top: 550px;
+}
 
+section#history .timeline .event2012{
+    top: 720px;
+}
 
+section#history .timeline .event2013{
+    bottom: 320px;
+}
+
+section#history .timeline .event2014{
+    bottom: 150px;
+}
+/**
+* SECTION CEO'S MESSAGE
+*/
+section#ceo-message{
+    background: url('../img/yasu.png') left 10% bottom no-repeat;
+    padding-bottom: 30px;
+}
+section#ceo-message .message{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 0 50px;
+    background-image: url('../img/quote-left.png'), url('../img/quote-right.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+}
+/**
+* SECTION MISSION
+*/
+section#mission{
+    background-color: #fff;
+    background-image: url('../img/mission.png'), url('../img/mission-border.png');
+    background-repeat: no-repeat, repeat-x;
+    background-position: right bottom, left bottom;
+    min-height: 700px;
+}
+section#mission .content{
+    padding-top: 30px;
+    font-size: 18px;
+}
+section#mission .content ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+section#mission .content ul li{
+    padding-left: 25px;
+    background: url('../img/list-icon.png') left center no-repeat;
+}
+/**
+* Get In Touch
+*/
+section#get-in-touch{
+    background-color: #fff;
+}
+section#get-in-touch .row h3.tit{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: solid 5px #000;
+    font-size: 33px;
+}
+section#get-in-touch p.company-name{
+    color: #000;
+    font-size: 20px;
+}
+section#get-in-touch .email{
+    padding: 10px 50px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: color 200ms ease-out;
+    -webkit-transition: color 200ms ease-out;
+}
+section#get-in-touch .email:hover{
+    text-decoration: none;
+    color: #ccc;
+}
+section#get-in-touch span.black{
+    color: #000;
+}
+/**
+* FOOTER
+*/
+footer#footer{
+    padding: 20px 0;
+}
+footer#footer p{
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+footer#footer .social a{
+    background-color: #fff;
+    color: #010f1c;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: color 200ms ease-out;
+    -webkit-transition: color 200ms ease-out;
+}
+footer#footer .social a.linkedin:hover{
+    color: #007bb6;
+}
+footer#footer .social a.facebook:hover{
+    color: #3b5998;
+}
+footer#footer .social a.twitter:hover{
+    color: #00aced;
+}
+footer#footer .social a.google:hover{
+    color: #dd4b39;
+}
