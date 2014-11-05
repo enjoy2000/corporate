@@ -5,16 +5,12 @@
  * Date: 10/17/2014
  * Time: 1:46 PM
  */
-session_start();
 
 if (isset($_GET["locale"])) {
     $locale = $_GET["locale"];
 }
 else if (isset($_SESSION["locale"])) {
-    $locale  = $_SESSION["locale"];
-}
-else {
-    $locale = "ja_JP";
+    $locale = $_SESSION["locale"];
 }
 
 // I18N support information here
