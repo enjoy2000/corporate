@@ -33,9 +33,9 @@ include('translator.php');
             .nav-fixed-menu li:nth-child(2) a:after {
                 content: '<?php echo _('Our Services') ?>'; }
             .nav-fixed-menu li:nth-child(3) a:after {
-                content: '<?php echo _('Our History') ?>'; }
+                content: "<?php echo _('Iconic\'s History') ?>"; }
             .nav-fixed-menu li:nth-child(4) a:after {
-                content: '<?php echo _('Message') ?>'; }
+                content: "<?php echo _('CEO\'s Message') ?>"; }
             .nav-fixed-menu li:nth-child(5) a:after {
                 content: '<?php echo _('Mission') ?>'; }
             .nav-fixed-menu li:nth-child(6) a:after {

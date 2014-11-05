@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Corp JP\n"
-"POT-Creation-Date: 2014-11-05 10:54+0700\n"
-"PO-Revision-Date: 2014-11-05 10:55+0700\n"
+"POT-Creation-Date: 2014-11-05 11:04+0700\n"
+"PO-Revision-Date: 2014-11-05 11:22+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -28,12 +28,12 @@ msgstr ""
 msgid "Our Services"
 msgstr ""
 
-#: index.php:36 index.php:403
-msgid "Our History"
+#: index.php:36
+msgid "Iconic's History"
 msgstr ""
 
-#: index.php:38 index.php:408
-msgid "Message"
+#: index.php:38
+msgid "CEO's Message"
 msgstr ""
 
 #: index.php:40 index.php:257 index.php:413
@@ -306,6 +306,14 @@ msgstr ""
 
 #: index.php:369
 msgid "Copyright © Iconic joint stock company"
+msgstr ""
+
+#: index.php:403
+msgid "Our History"
+msgstr ""
+
+#: index.php:408
+msgid "Message"
 msgstr ""
 
 #~ msgid "test"
