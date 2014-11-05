@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Corp JP\n"
-"POT-Creation-Date: 2014-10-17 10:12+0700\n"
-"PO-Revision-Date: 2014-10-17 10:12+0700\n"
+"POT-Creation-Date: 2014-11-05 10:54+0700\n"
+"PO-Revision-Date: 2014-11-05 10:55+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -16,10 +16,300 @@ msgstr ""
 "X-Poedit-KeywordsList: _\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: index.php:26
-msgid "test"
-msgstr "khung"
+#: index.php:14
+msgid "Iconic Corporate Site"
+msgstr ""
 
-#: index.php:28
-msgid "Let’s make the web multilingual."
-msgstr "dien"
+#: index.php:32 index.php:393
+msgid "Home"
+msgstr ""
+
+#: index.php:34 index.php:398
+msgid "Our Services"
+msgstr ""
+
+#: index.php:36 index.php:403
+msgid "Our History"
+msgstr ""
+
+#: index.php:38 index.php:408
+msgid "Message"
+msgstr ""
+
+#: index.php:40 index.php:257 index.php:413
+msgid "Mission"
+msgstr ""
+
+#: index.php:42 index.php:291 index.php:418
+msgid "Get In Touch"
+msgstr ""
+
+#: index.php:76
+msgid "Language"
+msgstr ""
+
+#: index.php:80
+msgid "English"
+msgstr ""
+
+#: index.php:83
+msgid "Japanese"
+msgstr ""
+
+#: index.php:94
+msgid "We support those who work beyond borders!"
+msgstr ""
+
+#: index.php:104
+msgid "Our services"
+msgstr ""
+
+#: index.php:106 index.php:153 index.php:221
+msgid "LET'S ENJOY YOUR WORK BEYOND BORDERS!"
+msgstr ""
+
+#: index.php:113
+msgid "HR RECRUITMENT"
+msgstr ""
+
+#: index.php:116
+msgid ""
+"We can assist you to recruit both Japanese and\n"
+"                                Vietnamese in Vietnam. Our recruiting "
+"consulting\n"
+"                                fee is charged upon contingent fee basis. "
+"We\n"
+"                                maintain HR stock with various backgrounds "
+"lured\n"
+"                                through various marketing mix. You can "
+"streamline\n"
+"                                relevant administrative works upon "
+"recruitment\n"
+"                                in your company by outsourcing them to "
+"ICONIC.\n"
+"                                "
+msgstr ""
+
+#: index.php:129
+msgid "HR CONSULTING"
+msgstr ""
+
+#: index.php:132
+msgid ""
+"We provide HR Management consulting which is\n"
+"                                the most suitable for your company. Our "
+"consulting\n"
+"                                methods are mainly focused on recruiting "
+"and\n"
+"                                HR training procedures. The ultimate aim of "
+"our\n"
+"                                HR consulting is to achieve your company's\n"
+"                                growth by harmonizing the company's target "
+"goal\n"
+"                                and the employees's career goals.\n"
+"                                "
+msgstr ""
+
+#: index.php:151
+msgid "ICONIC'S HISTORY"
+msgstr ""
+
+#: index.php:159
+msgid "Join in Venture-Link Co.,Ltd."
+msgstr ""
+
+#: index.php:161
+msgid ""
+"Conduct management consulting in new product development\n"
+"                                    especially for small and mideum sized "
+"retail companies in Japan to boost their\n"
+"                                    sales revenues."
+msgstr ""
+
+#: index.php:168
+msgid "He entered Brainworks Asia Co.,Ltd."
+msgstr ""
+
+#: index.php:170
+msgid "Then,he had visited about 500companies in vietnam for a year"
+msgstr ""
+
+#: index.php:175
+msgid "ICONIC Co., Ltd. established"
+msgstr ""
+
+#: index.php:177
+msgid ""
+"Launched HR Recruitment Service mainly for Japanese & Vietnamese in\n"
+"                                Hochiminh City. Implemented this service "
+"mostly in areas in the south of Vietnam"
+msgstr ""
+
+#: index.php:183
+msgid "ICONIC Co., Ltd Hanoi office established"
+msgstr ""
+
+#: index.php:185
+msgid "Expand business in Northern"
+msgstr ""
+
+#: index.php:190
+msgid "ICONIC Japan Co., Ltd. established"
+msgstr ""
+
+#: index.php:192
+msgid "Officially legalized global recruitment service in Japanese."
+msgstr ""
+
+#: index.php:197
+msgid "PT. ICONIC INDONESIA GW established"
+msgstr ""
+
+#: index.php:199
+msgid "Launched HR recruitment service for Japanese & Indonesian in Indonesia"
+msgstr ""
+
+#: index.php:204
+msgid "ICONIC Japan Co., Ltd. Tokyo office established"
+msgstr ""
+
+#: index.php:206
+msgid ""
+"We offer global human resource recruitment services focusing in Kanto area.\n"
+"                                "
+msgstr ""
+
+#: index.php:219
+msgid "CEO'S MESSAGE"
+msgstr ""
+
+#: index.php:227
+msgid ""
+"As the world has become borderless, various industries have met "
+"globalization,\n"
+"                            which makes companies employ multi-national "
+"human resources correspondingly."
+msgstr ""
+
+#: index.php:229
+msgid ""
+"A few decades ago, most of employees working in Japanese companies used to "
+"be\n"
+"                            Japanese while we are so mixed up nowadays, "
+"which requires a new management style applicable\n"
+"                            to employees with diversified nationalities "
+"hence characteristics. How to shift successfully\n"
+"                            our management style from “Unification” to "
+"“Diversification”? This is the biggest challenge\n"
+"                            for most companies."
+msgstr ""
+
+#: index.php:236
+msgid ""
+"FDI from Japan flows into emerging markets in Asia more and more while not "
+"a\n"
+"                            few of such companies see the difficulty in how "
+"to manage employees with diversified\n"
+"                            characteristics. It is unavoidable for "
+"globalized companies to consider an appropriate\n"
+"                            solution for multi-national human resource "
+"crisis."
+msgstr ""
+
+#: index.php:242
+msgid "I established ICONIC with a wish."
+msgstr ""
+
+#: index.php:243
+msgid ""
+"I would like to make the foundation which enables globalized companies and\n"
+"                            individuals to work comfortably even beyond "
+"borders!"
+msgstr ""
+
+#: index.php:245
+msgid ""
+"ICONIC offers you a best solution to manage and even take advantage of\n"
+"                            diversity which makes your employees enjoy their "
+"works beyond borders."
+msgstr ""
+
+#: index.php:259
+msgid "Enrich Globalizing Society by HR Service"
+msgstr ""
+
+#: index.php:265
+msgid ""
+"In 21st Century, the world becomes more complex and diversity, Information\n"
+"                            Technology, price reduction of international "
+"movement with LCC, free trade makes goods move\n"
+"                            accelerated, and highly developed finance makes "
+"capital move all over the world. Globalization\n"
+"                            change people’s life and society fundamentally. "
+"We have many kinds of problems such as\n"
+"                            Disparity, Environmental problem, Security "
+"problem with globalization. But we believe that\n"
+"                            the globalization society is:"
+msgstr ""
+
+#: index.php:273
+msgid "To make a change to people dream comes true"
+msgstr ""
+
+#: index.php:274
+msgid "To expand your potential"
+msgstr ""
+
+#: index.php:275
+msgid "To solve the difficult problems"
+msgstr ""
+
+#: index.php:276
+msgid "To allow your challenge"
+msgstr ""
+
+#: index.php:280
+msgid "Then it makes us more fascinated society"
+msgstr ""
+
+#: index.php:293
+msgid "You can find us literally anywhere, just push a button and we're there"
+msgstr ""
+
+#: index.php:300 index.php:346
+msgid "Vietnam"
+msgstr ""
+
+#: index.php:308
+msgid "Ho Chi Minh office"
+msgstr ""
+
+#: index.php:313
+msgid "Hanoi office"
+msgstr ""
+
+#: index.php:317 index.php:340 index.php:356
+msgid "Phone"
+msgstr ""
+
+#: index.php:323
+msgid "Japan"
+msgstr ""
+
+#: index.php:331
+msgid "Head office"
+msgstr ""
+
+#: index.php:336
+msgid "Tokyo office"
+msgstr ""
+
+#: index.php:369
+msgid "Copyright © Iconic joint stock company"
+msgstr ""
+
+#~ msgid "test"
+#~ msgstr "khung"
+
+#~ msgid "Let’s make the web multilingual."
+#~ msgstr "dien"

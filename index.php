@@ -17,11 +17,14 @@ include('translator.php');
 
         <link rel="icon" href="/Favicon.png" type="image/x-icon" />
 
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <!--
         <link rel="stylesheet" href="/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/css/animate.css">
         <link rel="stylesheet" href="/css/main.css">
+        -->
+        <link rel="stylesheet" href="/css/min.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <style>
@@ -110,8 +113,7 @@ include('translator.php');
                                 <?php echo _('HR RECRUITMENT') ?>
                             </h3>
                             <p>
-                                <?php echo _('
-                                We can assist you to recruit both Japanese and
+                                <?php echo _('We can assist you to recruit both Japanese and
                                 Vietnamese in Vietnam. Our recruiting consulting
                                 fee is charged upon contingent fee basis. We
                                 maintain HR stock with various backgrounds lured
@@ -127,8 +129,7 @@ include('translator.php');
                                 <?php echo _('HR CONSULTING') ?>
                             </h3>
                             <p>
-                                <?php echo _('
-                                We provide HR Management consulting which is
+                                <?php echo _('We provide HR Management consulting which is
                                 the most suitable for your company. Our consulting
                                 methods are mainly focused on recruiting and
                                 HR training procedures. The ultimate aim of our
@@ -422,14 +423,15 @@ include('translator.php');
         </nav><!-- End Right Menu -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-
-        <script src="/js/vendor/bootstrap.min.js"></script>
-
+        <script>window.jQuery || document.write('<script src="/js/jquery-1.11.1.min.js"><\/script>')</script>
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
-
+        <!--
+        <script src="/js/vendor/bootstrap.min.js"></script>
         <script src="/js/vendor/jquery.easings.min.js"></script>
         <script src="/js/vendor/jquery.slimscroll.min.js"></script>
         <script src="/js/main.js"></script>
+        -->
+
+        <script src="/js/production.min.js"></script>
     </body>
 </html>

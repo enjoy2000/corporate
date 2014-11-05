@@ -46,6 +46,7 @@ header#header #social-language {
     position: absolute;
     top: 20px;
     right: 10px;
+    z-index: 1;
 }
 
 header#header #social-language > div {
@@ -129,10 +130,6 @@ section#our-services .row > div h3 {
     font-size: 40px;
     color: white;
     font-weight: bold;
-}
-
-section#our-services .row > div p {
-    font-size: 19px;
 }
 
 section#our-services .row > div.hr-recruitment {
@@ -230,7 +227,6 @@ section#ceo-message {
 
 section#ceo-message .message {
     color: #fff;
-    font-size: 18px;
     text-align: justify;
     padding: 0 50px;
     background-image: url('../img/quote-left.png'), url('../img/quote-right.png');
@@ -251,7 +247,6 @@ section#mission {
 
 section#mission .content {
     padding-top: 30px;
-    font-size: 18px;
 }
 
 section#mission .content ul {
@@ -438,4 +433,42 @@ nav#right-menu ul {
     -o-transition: opacity 0.3s ease-in, -o-transform 0.3s ease-in;
     transition: opacity 0.3s ease-in, transform 0.3s ease-in;
     width: auto;
+}
+
+/**
+    SMALL DEVICES
+*/
+
+@media (max-width: 767px){
+    body{
+        font-size: 12px;
+    }
+    .heading h2{
+        font-size: 24px;
+    }
+    .heading p.sub-tit{
+        font-size: 20px;
+    }
+    section#our-services .row > div h3{
+        font-size: 22px;
+    }
+    section#history .timeline .left,
+    section#history .timeline .right{
+        width: 40%;
+    }
+    section#history .timeline h3{
+        font-size: 15px;
+    }
+    nav#right-menu{
+        display: none;
+    }
+    .dropdown-menu{
+        min-width: 100px;
+    }
+    section#our-services{
+        padding-bottom: 30px;
+    }
+    footer#footer p{
+        font-size: 14px;
+    }
 }

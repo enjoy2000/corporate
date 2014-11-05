@@ -82,7 +82,7 @@ onScrollInit(jQuery('.os-animation'));
                         $('nav#right-menu ul li a.active').parent().prev().find('a').click();
                     }
                     setTimeout(function(){
-                        c.log('wait 3s to continue');
+                        c.log('Wait %s ms to continue.', time);
                         timeout = true;
                     }, time);
                 }
