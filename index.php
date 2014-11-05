@@ -343,7 +343,7 @@ include('translator.php');
                         <div class="vietnam col-lg-4 col-md-4 col-sm-4 col-xs-12 os-animation"
                              data-os-animation="fadeInRight" data-os-animation-delay="0.5s">
                             <h3 class="tit">
-                                <?php echo _('Vietnam') ?>
+                                <?php echo _('Indonesia') ?>
                             </h3>
                             <p class="company-name">
                                 <strong>PT. ICONIC INDONESIA GW</strong>
