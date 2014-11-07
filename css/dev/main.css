@@ -443,6 +443,12 @@ nav#right-menu ul {
     body{
         font-size: 12px;
     }
+    .logo{
+        margin-top: 20px;
+    }
+    header .slogan{
+        font-size: 24px!important;
+    }
     .heading h2{
         font-size: 24px;
     }

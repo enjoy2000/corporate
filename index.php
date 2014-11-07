@@ -87,8 +87,10 @@ include('translator.php');
                         </div>
                     </div>
                     <div class="logo">
-                        <img class="center-block img-responsive os-animation" data-os-animation="zoomIn" data-os-animation-delay="0s"
-                            src="/img/logo.png" alt="Iconic Logo" width="500" height="498"/>
+                        <a href="/" title="<?php echo _('Homepage') ?>">
+                            <img class="center-block img-responsive os-animation" data-os-animation="zoomIn" data-os-animation-delay="0s"
+                                src="/img/logo.png" alt="Iconic Logo" width="500" height="498"/>
+                        </a>
                     </div>
                     <div class="slogan os-animation" data-os-animation="fadeInUp" data-os-animation-delay="0.5s">
                         <?php echo _('We support those who work beyond borders!') ?>

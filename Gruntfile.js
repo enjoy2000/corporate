@@ -20,7 +20,7 @@ module.exports = function(grunt) {
 			},
 			build: {
 				files: {
-					'css/production/min.css': ['css/*.css'],
+					'css/min.css': ['css/dev/*.css'],
 				}
 			}
 		},
